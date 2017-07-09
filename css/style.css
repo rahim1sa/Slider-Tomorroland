@@ -1,0 +1,74 @@
+body{
+	background: black;
+	margin: 0;
+}
+.main{
+	width: 1210px;
+	height: 638px;
+	margin: 10px auto;
+	overflow: hidden;
+	position: relative;
+}
+.photoDiv{
+	position: absolute;
+	z-index: -1;
+}
+
+#innerPhoto img{
+	width: calc(100% - 10px);
+	height: calc(100% - 10px);
+	padding:5px 5px 2px 5px;
+	background: white;
+	border-radius: 5px ;
+}
+
+.photo img{
+	border-radius: 5px ;
+}
+.buttons{
+	padding-top: 240px;
+}
+.leftB{
+	float: left;
+	color: white;
+	width: 49px;
+	height: 110px;
+	border-bottom-right-radius: 200px;
+  	border-top-right-radius: 200px;
+  	background: rgba(218, 222, 229, 0.4);
+  	border-color: lightgray;
+}
+.leftB , .rightB i{
+	font-size: 50px;
+}
+.rightB{
+	float: right;
+	color: white;
+	width: 49px;
+	height: 110px;
+	border-bottom-left-radius: 200px;
+  	border-top-left-radius: 200px;
+  	background: rgba(218, 222, 229, 0.4);
+  	border-color: gray;
+	margin-right: -3px;
+
+}
+
+.sliders{
+	width: 636px;
+	height: 90px;
+	padding-top: 285px;
+	padding-left: 296px;
+}
+.sliders button{
+	border-radius: 4px;
+	border: 2px lightgray solid;
+}
+.sliders img{
+	width: 150px;
+	height: 80px;
+	border-radius: 5px;
+	margin:0px -5px;
+	display: inline-block;
+	float: left;
+}
